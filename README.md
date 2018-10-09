@@ -8,6 +8,18 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
+## To Run
+* [Install Yarn](https://yarnpkg.com/lang/en/docs/install)
+* [Watchman](https://facebook.github.io/watchman/docs/install.html#installing-on-os-x-via-homebrew), a file watching service, is recommended on MacOS for improved performance.
+* [Expo](https://expo.io/) is a platform that provides a number of different tools to build fully functional React Nativev applications without having to write native code. Beginning a project with CRNA automatically creates an application that leverages Expo’s development environment. Downlaod the app on your phone and you'll be ready to go.
+* Navigate to the source directory. 
+    * run `yarn start`
+    * Pressing s will allow you to send a link to your device by SMS or e-mail (you’ll need to provide your mobile phone number of email address). Once done, clicking the link will open the application in the Expo Client.
+
+
+
+
+
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
