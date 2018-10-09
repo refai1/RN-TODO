@@ -48,9 +48,11 @@ export default class EditableTask extends React.Component {
 			id, 
 			title,
 			project,
+			isComplete,
 			onRemovePress,
 			onStartPress,
 			onStopPress,
+			onDonePress,
 		} = this.props;
 
 		const {editFormOpen} = this.state;
@@ -71,10 +73,12 @@ export default class EditableTask extends React.Component {
 				id={id}
 				title={title}
 				project={project}
+				isComplete={isComplete}
 				onEditPress={this.handleEditPress}
 				onRemovePress={onRemovePress}
 				onStartPress={onStartPress}
 				onStopPress={onStopPress}
+				onDonePress={onDonePress}
 			/>
 		);
 	}

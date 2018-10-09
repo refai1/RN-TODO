@@ -1,8 +1,10 @@
 /* eslint-disable global-require */
 
 const images = {
-  edit: require('../assets/edit.png'),
-  remove: require('../assets/delete.png'),
+  edit: 	require('../assets/edit.png'),
+  remove: 	require('../assets/delete.png'),
+  done: 	require('../assets/done.png'),
+  not_done: require('../assets/not_done.png'),
 };
 
 export default name => images[name];
